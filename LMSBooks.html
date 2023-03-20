@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Library Managment System
+        </title>
+        <link rel = "stylesheet" href = "style.css"> 
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale = 1">
+    </head>
+<body>
+    <div class = "wrapper">
+        <header>
+        <div class="logo">
+            <img src ="logo.jpg" alt ="librarylogo" width="130" height="130">
+            <h1 style = "color: white;">Online Library Managment System</h1>
+        </div>
+            <nav>
+                <ul>
+                    <li><a href="LibraryMSfront.html">HOME</a></li>
+                    <li><a href="LMSADD.html">ADD</a></li>
+                    <li><a href="LMSSeach.html">SEARCH</a></li>
+                    <li><a href="LMSUPDATE.html">UPDATE</a></li>
+                    <li><a href="LMSDelete.html">DELETE</a></li>
+					<li><a href="LMSBorrow.html">BORROW</a></li>
+                    <li><a href="LMSLogin.html">LOGOUT</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <section>
+            <br><br><br><br><br><br><br><br>
+            <div class="bookmemberform1">
+                <h3>Book</h3>
+                <form class="bookmemberform2" name="book" action="CWPHP.php" method="post">
+                    <input class="bookmemberinput" type="text" name="book_title" placeholder="Bookname" required=""><br><br>
+                    <input class="bookmemberinput" type="number" name="category_id" placeholder="CategoryID" required=""><br><br>
+                    <input class="bookmemberinput" type="text" name="author" placeholder="Author" ><br><br>
+					<input class="bookmemberinput" type="number" name="book_copies" placeholder="Number of Copies" ><br><br>
+                    <input class="bookmemberinput" type="text" name="book_pub" placeholder="Book publisher" ><br><br>
+                    <input class="bookmemberinput" type="text" name="publisher_name" placeholder="Publisher name" required=""><br><br>
+                    <input class="bookmemberinput" type="text" name="isbn" placeholder="Isbn" ><br><br>
+                    <input class="bookmemberinput" type="number" name="copyright_year" placeholder="Copyright Year" ><br><br>
+					<input class="bookmemberinput" type="text" name="status" placeholder="Status" ><br><br>
+
+                    <input type="submit" name = "AddBookButton" value="Enter">
+                </form>
+            </div>
+        </section>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+</html>

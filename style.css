@@ -1,0 +1,131 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.wrapper{
+    height: 857px;
+    width: 1520px;
+    clear:both;
+}
+.logo{
+    float: left;
+    padding-left: 50px;
+}
+.logo img{
+    padding-left: 60px;
+}
+.box{
+    height: 300px;
+    width: 450px;
+    background-color: white;
+    margin: 210px auto; 
+    opacity: 0.7;
+}
+.box2{
+    height: 600px;
+    width: 1100px;
+    background-color: white;
+    margin: 100px auto;
+}
+header{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+}
+section{
+    height: 600px;
+    width: 100%;
+    background-color: gray;
+}
+footer{
+    height: 82px;
+    width: 100%;
+    background-color: black;
+}
+li a{
+    color:white;
+    text-decoration: none;
+    font-size: large;
+}
+nav{
+    float: right;
+    word-spacing: 20px;
+    padding: 20px;
+}
+nav li{
+    display: inline-block;  
+    line-height: 80px;
+}
+h1{
+    margin-top: -20px;
+    font-size: large;
+}
+section{
+    background-image: url("librarypic.jpg");;
+    height: 857px;
+    width: 1520px;
+}
+.imgs{
+    display: inline-block;
+    margin-left: 160px;
+    margin-right: auto;
+    border: 5px solid rgb(0, 0, 0);
+}
+h2{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+.topbox{
+    font-size: 60px;
+    margin-left: 480px;
+}
+.topbox2{
+    font-size: 60px;
+    margin-left: 420px;
+}
+
+.login{
+    height: 450px;
+    width: 600px;
+    background-color: white;
+    margin: 0px auto;
+    opacity: 0.7;
+}
+h3{
+    font-size: xx-large;
+    text-align: center;
+}
+form{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+input{
+    height: 40px;
+    width: 500px;
+}
+p{
+    margin-left: 50px;
+    font-size: large;
+    margin-top: 100px;
+}
+.bookmemberform1{
+    height: 775px;
+    width: 600px;
+    background-color: white;
+    margin: 0px auto;
+    margin-top: -120px;
+    opacity: 0.7;
+}
+.bookmemberform2{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.button{
+    width: 20px;
+    height: 20px;
+    margin: 0px auto;
+    margin-left: 30px;
+    margin-bottom: 10px;
+
+}

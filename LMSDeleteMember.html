@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Library Managment System
+        </title>
+        <link rel = "stylesheet" href = "style.css"> 
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale = 1">
+    </head>
+<body>
+    <div class = "wrapper">
+        <header>
+        <div class="logo">
+            <img src ="logo.jpg" alt ="librarylogo" width="130" height="130">
+            <h1 style = "color: white;">Online Library Managment System</h1>
+        </div>
+            <nav>
+                <ul>
+                    <li><a href="LibraryMSfront.html">HOME</a></li>
+                    <li><a href="LMSADD.html">ADD</a></li>
+                    <li><a href="LMSSeach.html">SEARCH</a></li>
+                    <li><a href="LMSUPDATE.html">UPDATE</a></li>
+                    <li><a href="LMSDelete.html">DELETE</a></li>
+					<li><a href="LMSBorrow.html">BORROW</a></li>
+                    <li><a href="LMSLogin.html">LOGOUT</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <section>
+            <br><br><br><br><br><br><br><br>
+            <div class="bookmemberform1">
+                <h3>Delete Member</h3>
+                <form class="bookmemberform2" name="member" action="CWPHP.php" method="post">
+                    <input class="bookmemberinput" type="number" name="member_id" placeholder="Member ID" required=""><br><br>
+
+                    <input type="submit" name = "DeleteMemberButton" value="Search">
+                </form>
+            </div>
+        </section>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+</html>
